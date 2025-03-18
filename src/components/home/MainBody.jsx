@@ -10,8 +10,10 @@ const MainBody = React.forwardRef(
         fluid
         id="home"
         style={{
-          background: `linear-gradient(136deg,${gradient})`,
-          backgroundSize: "1200% 1200%",
+        // background: `linear-gradient(136deg,${gradient})`,//bbb
+        backgroundimage: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rockpapershotgun.com%2Fminecrafts-mega-performance-mod-now-supports-shaders&psig=AOvVaw3tFEcH9jTGt1KzdFjqFCW_&ust=1742391669806000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJC6nMvhk4wDFQAAAAAdAAAAABAE"), 
+        backgroundSize: "1200% 1200%",
+          
         }}
         className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
       >

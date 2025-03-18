@@ -42,6 +42,11 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
+
+      const updatedRepoList = repoList.map((repo) => ({
+        ...repo,
+        website_url: repo.name === "2048" ? "https://2048-sepia-nine.vercel.app": null,
+      }))
       // setting projectArray
       // TODO: remove the duplication.
       setProjectsArray(repoList);
