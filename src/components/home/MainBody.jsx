@@ -7,16 +7,15 @@ const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
     return (
       <Jumbotron
-        fluid
-        id="home"
-        style={{
-        // background: `linear-gradient(136deg,${gradient})`,//bbb
-        backgroundimage: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rockpapershotgun.com%2Fminecrafts-mega-performance-mod-now-supports-shaders&psig=AOvVaw3tFEcH9jTGt1KzdFjqFCW_&ust=1742391669806000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJC6nMvhk4wDFQAAAAAdAAAAABAE"), 
-        backgroundSize: "1200% 1200%",
-          
-        }}
-        className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
-      >
+  fluid
+  id="home"
+  style={{
+    // background: `linear-gradient(136deg,${gradient})`, //bbb
+    backgroundImage: "url('https://assetsio.gnwcdn.com/2021-07-14_14.34.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp')", 
+    backgroundSize: "1200% 1200%",
+  }}
+  className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
+>
         <div id="stars"></div>
         <Container className="text-center">
           <h1 ref={ref} className="display-1">
