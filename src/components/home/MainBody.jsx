@@ -7,12 +7,13 @@ const MainBody = React.forwardRef(
   ({ gradient, title, message, icons }, ref) => {
     return (
       <Jumbotron
-  fluid
+  // fluid
   id="home"
   style={{
     // background: `linear-gradient(136deg,${gradient})`, //bbb
     backgroundImage: "url('https://assetsio.gnwcdn.com/2021-07-14_14.34.jpg?width=1920&height=1920&fit=bounds&quality=80&format=jpg&auto=webp')", 
-    backgroundSize: "1200% 1200%",
+    // backgroundSize: "1200% 1200%",
+    backgroundSize: "auto, auto",
   }}
   className="title bg-transparent bgstyle text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
 >
